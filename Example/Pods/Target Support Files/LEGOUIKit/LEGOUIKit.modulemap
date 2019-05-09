@@ -1,0 +1,6 @@
+framework module LEGOUIKit {
+  umbrella header "LEGOUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

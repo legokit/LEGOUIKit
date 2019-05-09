@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01D3DFEE1C0EFF2F11EE61AA59DAE06B /* LEGOBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B936C9F4108AC11DD1ED5FDC9EC0C0E9 /* LEGOBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30094579DC8B9C844E24FD4591FE7771 /* Pods-LEGOUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F84602E9102F25C2A080CACA9FD81D /* Pods-LEGOUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A327CFB9E4CCE0BC6852EB0BB503BFD /* LEGOUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E2D780C67E2EEEF00E2712F317455A /* LEGOUIKit-dummy.m */; };
+		5F90BFFC4BE83436AB8DF61A3687B24D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		6B089706DCF9EF751C4A3BBE10F1DABD /* Pods-LEGOUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC74BF6471F38C37B03BAC4BB9BD8DB8 /* Pods-LEGOUIKit_Example-dummy.m */; };
+		6D76D083F3C07D9228DA28CDC54209EC /* LEGOUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37F0A2930AD29D3956D625821D9B9B6D /* LEGOUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E29C40F3644322FB87A52DE2634FE7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		78162FE6E3597D9F9BEB055452F22783 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		91144192D593EE4E5C2AED71652079D6 /* Pods-LEGOUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F9D7933B8E400DEBEE73280F0614064 /* Pods-LEGOUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3EE0C604FE40F2940F74A55883A53FD /* LEGOUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F33B0F1F39D97C020A2336019A32070 /* LEGOUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2AA6DF069400C724F2B4154B597A510 /* LEGOBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051343CD7FB7D8A254E10A101A0DBE73 /* LEGOBaseViewController.m */; };
+		D1CDB7C59FD33F1D5BB9F6DDBB9CAC3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		E39B51E3D56E428A0F4289226170A161 /* Pods-LEGOUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6851440ABB5A4A0C0DDFC06B8102AE /* Pods-LEGOUIKit_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D752567DD982C7C1E1F632A6B04CC912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3E2C759AF4B60B63D9796305E119FB58;
+			remoteInfo = LEGOUIKit;
+		};
+		F377F00FCB64F0CA38DDF9E2CB374B4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48C725B874057678D8429B3A1FBE8347;
+			remoteInfo = "Pods-LEGOUIKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		014EB4D1860A91252C18323F24E70722 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		01E2D780C67E2EEEF00E2712F317455A /* LEGOUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LEGOUIKit-dummy.m"; sourceTree = "<group>"; };
+		051343CD7FB7D8A254E10A101A0DBE73 /* LEGOBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LEGOBaseViewController.m; path = LEGOUIKit/Classes/LEGOBaseViewController/LEGOBaseViewController.m; sourceTree = "<group>"; };
+		0A2CD94E87148C4D06CEB345CD03585E /* LEGOUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LEGOUIKit.framework; path = LEGOUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FC46275A7861247E13A7411BC358EA4 /* LEGOUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LEGOUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		16F638B3499597B8E0FB3DD3A6719A0A /* Pods-LEGOUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LEGOUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		2B8AB3E1370D69B57C2D1051B1A3B695 /* LEGOUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LEGOUIKit.modulemap; sourceTree = "<group>"; };
+		37F0A2930AD29D3956D625821D9B9B6D /* LEGOUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOUIKit-umbrella.h"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4B8E7584FD4B794FF8AD08C1B3E1F816 /* Pods-LEGOUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		54F84602E9102F25C2A080CACA9FD81D /* Pods-LEGOUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGOUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5F33B0F1F39D97C020A2336019A32070 /* LEGOUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEGOUIKit.h; path = LEGOUIKit/Classes/LEGOUIKit.h; sourceTree = "<group>"; };
+		63394FAFDF34CFFCA1A5C3DE4C4AEF16 /* Pods-LEGOUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGOUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7F1A1D4E172535ED3A00895B4920B973 /* LEGOUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LEGOUIKit.xcconfig; sourceTree = "<group>"; };
+		8F9D7933B8E400DEBEE73280F0614064 /* Pods-LEGOUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LEGOUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC68FD475712E5A1E902928B78A53571 /* Pods_LEGOUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOUIKit_Example.framework; path = "Pods-LEGOUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2538863A4ABA57A82C5C075D3F0461E /* Pods-LEGOUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B936C9F4108AC11DD1ED5FDC9EC0C0E9 /* LEGOBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LEGOBaseViewController.h; path = LEGOUIKit/Classes/LEGOBaseViewController/LEGOBaseViewController.h; sourceTree = "<group>"; };
+		C45E9E2003F8C8C967A22BFE8528DEF7 /* Pods-LEGOUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		C94825780B834EF024BC0DA0A9F103EA /* Pods_LEGOUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LEGOUIKit_Tests.framework; path = "Pods-LEGOUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC965AF8DCEE716A384E0A75DEA4AF8 /* Pods-LEGOUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGOUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		CEC749C703EBE53BEEFA0C62AA4C064E /* Pods-LEGOUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CFFBE2E5664F1D99E1F5FE62A59109C6 /* Pods-LEGOUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LEGOUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D25B2B2483385EF557E96E8127F0C359 /* Pods-LEGOUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LEGOUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		DFAF0D52E37B972DDAF8DF5E4AE17E8B /* Pods-LEGOUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3310E3AC5CF09CC353F0BB4377D5527 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E5CDA1BF4EB7CAACABA5122C8A42E1A0 /* Pods-LEGOUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E7CA4957210887553617610993BBD5B6 /* LEGOUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LEGOUIKit-prefix.pch"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F4B80D84FB719DF5C48486FA3FBE8BED /* Pods-LEGOUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LEGOUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		FC74BF6471F38C37B03BAC4BB9BD8DB8 /* Pods-LEGOUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGOUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		FE6851440ABB5A4A0C0DDFC06B8102AE /* Pods-LEGOUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LEGOUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		FEA276C354248A7DCC0669E9EA994530 /* Pods-LEGOUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LEGOUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FF3BA49FB38B6D886F6339284B613710 /* LEGOUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LEGOUIKit-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BF3829048FED5C613F3A8F4B104DDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F90BFFC4BE83436AB8DF61A3687B24D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E0E3C96B7F78564EEA7766D44DFC50A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1CDB7C59FD33F1D5BB9F6DDBB9CAC3E /* Foundation.framework in Frameworks */,
+				6E29C40F3644322FB87A52DE2634FE7E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3642CDDF61FCBFA872600EB6993C27E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78162FE6E3597D9F9BEB055452F22783 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C76C7857923D708149128964333C751 /* LEGOBaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B936C9F4108AC11DD1ED5FDC9EC0C0E9 /* LEGOBaseViewController.h */,
+				051343CD7FB7D8A254E10A101A0DBE73 /* LEGOBaseViewController.m */,
+			);
+			name = LEGOBaseViewController;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34C3F3BE217FD7559D068EB58AFCE10B /* Pods-LEGOUIKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CBC965AF8DCEE716A384E0A75DEA4AF8 /* Pods-LEGOUIKit_Tests.modulemap */,
+				FEA276C354248A7DCC0669E9EA994530 /* Pods-LEGOUIKit_Tests-acknowledgements.markdown */,
+				DFAF0D52E37B972DDAF8DF5E4AE17E8B /* Pods-LEGOUIKit_Tests-acknowledgements.plist */,
+				FE6851440ABB5A4A0C0DDFC06B8102AE /* Pods-LEGOUIKit_Tests-dummy.m */,
+				F4B80D84FB719DF5C48486FA3FBE8BED /* Pods-LEGOUIKit_Tests-Info.plist */,
+				54F84602E9102F25C2A080CACA9FD81D /* Pods-LEGOUIKit_Tests-umbrella.h */,
+				CEC749C703EBE53BEEFA0C62AA4C064E /* Pods-LEGOUIKit_Tests.debug.xcconfig */,
+				CFFBE2E5664F1D99E1F5FE62A59109C6 /* Pods-LEGOUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-LEGOUIKit_Tests";
+			path = "Target Support Files/Pods-LEGOUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		7327CD98CAD9BB9A4DB42EDE2EA772CE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC567785F53726B1E301D26C51AFF6EB /* LEGOUIKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9B2529A511E983CF7B496C1A54AA2D1C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C6216A0FC9745CE020716AA12DB988BF /* Pods-LEGOUIKit_Example */,
+				34C3F3BE217FD7559D068EB58AFCE10B /* Pods-LEGOUIKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A880DFE776D57791CF53D1AAF4B27812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2CD94E87148C4D06CEB345CD03585E /* LEGOUIKit.framework */,
+				AC68FD475712E5A1E902928B78A53571 /* Pods_LEGOUIKit_Example.framework */,
+				C94825780B834EF024BC0DA0A9F103EA /* Pods_LEGOUIKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC567785F53726B1E301D26C51AFF6EB /* LEGOUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				5F33B0F1F39D97C020A2336019A32070 /* LEGOUIKit.h */,
+				0C76C7857923D708149128964333C751 /* LEGOBaseViewController */,
+				CBE059B7226CF4CF14EEE80D5A701A9C /* Pod */,
+				E595965057174204ACD26BFDE049981E /* Support Files */,
+			);
+			name = LEGOUIKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		C6216A0FC9745CE020716AA12DB988BF /* Pods-LEGOUIKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D25B2B2483385EF557E96E8127F0C359 /* Pods-LEGOUIKit_Example.modulemap */,
+				63394FAFDF34CFFCA1A5C3DE4C4AEF16 /* Pods-LEGOUIKit_Example-acknowledgements.markdown */,
+				E5CDA1BF4EB7CAACABA5122C8A42E1A0 /* Pods-LEGOUIKit_Example-acknowledgements.plist */,
+				FC74BF6471F38C37B03BAC4BB9BD8DB8 /* Pods-LEGOUIKit_Example-dummy.m */,
+				16F638B3499597B8E0FB3DD3A6719A0A /* Pods-LEGOUIKit_Example-frameworks.sh */,
+				4B8E7584FD4B794FF8AD08C1B3E1F816 /* Pods-LEGOUIKit_Example-Info.plist */,
+				8F9D7933B8E400DEBEE73280F0614064 /* Pods-LEGOUIKit_Example-umbrella.h */,
+				B2538863A4ABA57A82C5C075D3F0461E /* Pods-LEGOUIKit_Example.debug.xcconfig */,
+				C45E9E2003F8C8C967A22BFE8528DEF7 /* Pods-LEGOUIKit_Example.release.xcconfig */,
+			);
+			name = "Pods-LEGOUIKit_Example";
+			path = "Target Support Files/Pods-LEGOUIKit_Example";
+			sourceTree = "<group>";
+		};
+		CBE059B7226CF4CF14EEE80D5A701A9C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0FC46275A7861247E13A7411BC358EA4 /* LEGOUIKit.podspec */,
+				014EB4D1860A91252C18323F24E70722 /* LICENSE */,
+				E3310E3AC5CF09CC353F0BB4377D5527 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7327CD98CAD9BB9A4DB42EDE2EA772CE /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				A880DFE776D57791CF53D1AAF4B27812 /* Products */,
+				9B2529A511E983CF7B496C1A54AA2D1C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E595965057174204ACD26BFDE049981E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B8AB3E1370D69B57C2D1051B1A3B695 /* LEGOUIKit.modulemap */,
+				7F1A1D4E172535ED3A00895B4920B973 /* LEGOUIKit.xcconfig */,
+				01E2D780C67E2EEEF00E2712F317455A /* LEGOUIKit-dummy.m */,
+				FF3BA49FB38B6D886F6339284B613710 /* LEGOUIKit-Info.plist */,
+				E7CA4957210887553617610993BBD5B6 /* LEGOUIKit-prefix.pch */,
+				37F0A2930AD29D3956D625821D9B9B6D /* LEGOUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LEGOUIKit";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2000687DA3AC63E9CFBF374F1A21EB0D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30094579DC8B9C844E24FD4591FE7771 /* Pods-LEGOUIKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6423BF6390D7068C7B57F1B419B79C90 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91144192D593EE4E5C2AED71652079D6 /* Pods-LEGOUIKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B4C04CFB2F627744A32D87D6EBCBD28F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01D3DFEE1C0EFF2F11EE61AA59DAE06B /* LEGOBaseViewController.h in Headers */,
+				6D76D083F3C07D9228DA28CDC54209EC /* LEGOUIKit-umbrella.h in Headers */,
+				A3EE0C604FE40F2940F74A55883A53FD /* LEGOUIKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3E2C759AF4B60B63D9796305E119FB58 /* LEGOUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 899DB1187733D236DDF5B646B4B39590 /* Build configuration list for PBXNativeTarget "LEGOUIKit" */;
+			buildPhases = (
+				B4C04CFB2F627744A32D87D6EBCBD28F /* Headers */,
+				2E4C822F94DC9A549D3072DBB66B3DAB /* Sources */,
+				9E0E3C96B7F78564EEA7766D44DFC50A /* Frameworks */,
+				CFEC371DA2D1366E721F188C4608F054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LEGOUIKit;
+			productName = LEGOUIKit;
+			productReference = 0A2CD94E87148C4D06CEB345CD03585E /* LEGOUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48C725B874057678D8429B3A1FBE8347 /* Pods-LEGOUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0657981672B1C45B5469CD3920F5E5BA /* Build configuration list for PBXNativeTarget "Pods-LEGOUIKit_Example" */;
+			buildPhases = (
+				6423BF6390D7068C7B57F1B419B79C90 /* Headers */,
+				7A82E091F17CB913D7CECBA30F326B7B /* Sources */,
+				E3642CDDF61FCBFA872600EB6993C27E /* Frameworks */,
+				09C87A2BB598B5D0976EA69329F46A79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				358A4EBE9538DCAAD5307CC9ABCCCDB5 /* PBXTargetDependency */,
+			);
+			name = "Pods-LEGOUIKit_Example";
+			productName = "Pods-LEGOUIKit_Example";
+			productReference = AC68FD475712E5A1E902928B78A53571 /* Pods_LEGOUIKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		701A2FA9066E0BA56E6085AF1A32B475 /* Pods-LEGOUIKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F9ACACEA4DA114AA9E2D0ED0C7D503 /* Build configuration list for PBXNativeTarget "Pods-LEGOUIKit_Tests" */;
+			buildPhases = (
+				2000687DA3AC63E9CFBF374F1A21EB0D /* Headers */,
+				BD360E677482E63039E4CAF7552A84B0 /* Sources */,
+				0BF3829048FED5C613F3A8F4B104DDD3 /* Frameworks */,
+				3D47040A112D5DC564524FC9AEBA4B8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29194C888FC42D7D4D8BEC5A00614FFE /* PBXTargetDependency */,
+			);
+			name = "Pods-LEGOUIKit_Tests";
+			productName = "Pods-LEGOUIKit_Tests";
+			productReference = C94825780B834EF024BC0DA0A9F103EA /* Pods_LEGOUIKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = A880DFE776D57791CF53D1AAF4B27812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E2C759AF4B60B63D9796305E119FB58 /* LEGOUIKit */,
+				48C725B874057678D8429B3A1FBE8347 /* Pods-LEGOUIKit_Example */,
+				701A2FA9066E0BA56E6085AF1A32B475 /* Pods-LEGOUIKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09C87A2BB598B5D0976EA69329F46A79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D47040A112D5DC564524FC9AEBA4B8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEC371DA2D1366E721F188C4608F054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E4C822F94DC9A549D3072DBB66B3DAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2AA6DF069400C724F2B4154B597A510 /* LEGOBaseViewController.m in Sources */,
+				4A327CFB9E4CCE0BC6852EB0BB503BFD /* LEGOUIKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A82E091F17CB913D7CECBA30F326B7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B089706DCF9EF751C4A3BBE10F1DABD /* Pods-LEGOUIKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD360E677482E63039E4CAF7552A84B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E39B51E3D56E428A0F4289226170A161 /* Pods-LEGOUIKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29194C888FC42D7D4D8BEC5A00614FFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LEGOUIKit_Example";
+			target = 48C725B874057678D8429B3A1FBE8347 /* Pods-LEGOUIKit_Example */;
+			targetProxy = F377F00FCB64F0CA38DDF9E2CB374B4E /* PBXContainerItemProxy */;
+		};
+		358A4EBE9538DCAAD5307CC9ABCCCDB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LEGOUIKit;
+			target = 3E2C759AF4B60B63D9796305E119FB58 /* LEGOUIKit */;
+			targetProxy = D752567DD982C7C1E1F632A6B04CC912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E48BB84B4AC7D0CBBA307411ECBCCD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1A1D4E172535ED3A00895B4920B973 /* LEGOUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LEGOUIKit/LEGOUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LEGOUIKit/LEGOUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LEGOUIKit/LEGOUIKit.modulemap";
+				PRODUCT_MODULE_NAME = LEGOUIKit;
+				PRODUCT_NAME = LEGOUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E8DEC75809CA00147DD73C732D2115A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2538863A4ABA57A82C5C075D3F0461E /* Pods-LEGOUIKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGOUIKit_Example/Pods-LEGOUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGOUIKit_Example/Pods-LEGOUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A903A710127DBFA1E932A56FBE3E538 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1A1D4E172535ED3A00895B4920B973 /* LEGOUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LEGOUIKit/LEGOUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LEGOUIKit/LEGOUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LEGOUIKit/LEGOUIKit.modulemap";
+				PRODUCT_MODULE_NAME = LEGOUIKit;
+				PRODUCT_NAME = LEGOUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AC71AF79D2A500D3C6E587D55312632F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFBE2E5664F1D99E1F5FE62A59109C6 /* Pods-LEGOUIKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGOUIKit_Tests/Pods-LEGOUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGOUIKit_Tests/Pods-LEGOUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEDDE0B6F3F139A2A7A7B7269850FEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45E9E2003F8C8C967A22BFE8528DEF7 /* Pods-LEGOUIKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGOUIKit_Example/Pods-LEGOUIKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGOUIKit_Example/Pods-LEGOUIKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB4F1CA0E04A8593D3D676D830BE3D5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEC749C703EBE53BEEFA0C62AA4C064E /* Pods-LEGOUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LEGOUIKit_Tests/Pods-LEGOUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LEGOUIKit_Tests/Pods-LEGOUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0657981672B1C45B5469CD3920F5E5BA /* Build configuration list for PBXNativeTarget "Pods-LEGOUIKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E8DEC75809CA00147DD73C732D2115A /* Debug */,
+				AEDDE0B6F3F139A2A7A7B7269850FEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F9ACACEA4DA114AA9E2D0ED0C7D503 /* Build configuration list for PBXNativeTarget "Pods-LEGOUIKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4F1CA0E04A8593D3D676D830BE3D5C /* Debug */,
+				AC71AF79D2A500D3C6E587D55312632F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		899DB1187733D236DDF5B646B4B39590 /* Build configuration list for PBXNativeTarget "LEGOUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E48BB84B4AC7D0CBBA307411ECBCCD9 /* Debug */,
+				8A903A710127DBFA1E932A56FBE3E538 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

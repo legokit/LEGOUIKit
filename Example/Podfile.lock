@@ -1,0 +1,18 @@
+PODS:
+  - LEGOUIKit (0.1.0):
+    - LEGOUIKit/LEGOBaseViewController (= 0.1.0)
+  - LEGOUIKit/LEGOBaseViewController (0.1.0)
+
+DEPENDENCIES:
+  - LEGOUIKit (from `../`)
+
+EXTERNAL SOURCES:
+  LEGOUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LEGOUIKit: ee27fe490c2659c87ab3ff8d598048d856eb38a2
+
+PODFILE CHECKSUM: 5f0fd5c247bd25ac5715be37116ddae6d959ce47
+
+COCOAPODS: 1.6.1
