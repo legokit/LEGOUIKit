@@ -10,6 +10,6 @@
 #define LEGOUIKit_h
 
 #import "LGNavigation.h"
-
+#import "UIColor+HYDColor.h"
 
 #endif /* LEGOUIKit_h */
