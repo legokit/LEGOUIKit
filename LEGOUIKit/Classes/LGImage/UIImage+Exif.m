@@ -7,7 +7,7 @@
 //
 
 #import "UIImage+Exif.h"
-#import <SDWebImage/SDWebImage.h>
+#import <SDWebImage/UIImage+MultiFormat.h>
 
 @implementation UIImage (Exif)
 
