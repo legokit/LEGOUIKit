@@ -33,6 +33,27 @@
 
         ]
       }
+    },
+    {
+      "name": "LGImage",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ],
+      "source_files": "LEGOUIKit/Classes/LGImage/**/*",
+      "dependencies": {
+        "SDWebImage": [
+
+        ]
+      }
+    },
+    {
+      "name": "LGColor",
+      "frameworks": [
+        "UIKit",
+        "Foundation"
+      ],
+      "source_files": "LEGOUIKit/Classes/LGColor/**/*"
     }
   ]
 }

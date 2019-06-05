@@ -1,9 +1,17 @@
 PODS:
   - LEGOUIKit (0.1.0):
+    - LEGOUIKit/LGColor (= 0.1.0)
+    - LEGOUIKit/LGImage (= 0.1.0)
     - LEGOUIKit/LGNavigation (= 0.1.0)
+  - LEGOUIKit/LGColor (0.1.0)
+  - LEGOUIKit/LGImage (0.1.0):
+    - SDWebImage
   - LEGOUIKit/LGNavigation (0.1.0):
     - Masonry
   - Masonry (1.1.0)
+  - SDWebImage (5.0.3):
+    - SDWebImage/Core (= 5.0.3)
+  - SDWebImage/Core (5.0.3)
 
 DEPENDENCIES:
   - LEGOUIKit (from `../`)
@@ -11,14 +19,16 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Masonry
+    - SDWebImage
 
 EXTERNAL SOURCES:
   LEGOUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LEGOUIKit: 5b0cdb7f5f77abd7e38f90af1e5869c53d67c8bf
+  LEGOUIKit: 5bf56b51e3b2efce470fde11da17d8008cebf60c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: d4f87d7d36c8a4d9f9459dc282e0caa057fdf935
 
 PODFILE CHECKSUM: 5f0fd5c247bd25ac5715be37116ddae6d959ce47
 

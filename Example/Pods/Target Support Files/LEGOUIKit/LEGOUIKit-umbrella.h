@@ -11,6 +11,12 @@
 #endif
 
 #import "LEGOUIKit.h"
+#import "UIColor+HYDColor.h"
+#import "UIImage+BigBitEditer.h"
+#import "UIImage+Exif.h"
+#import "UIImage+fixOrientation.h"
+#import "UIImage+Rotate.h"
+#import "UIImage+shareAdjust.h"
 #import "LGNavigation.h"
 #import "LGNavigationController.h"
 #import "LGNavigationUtils.h"
