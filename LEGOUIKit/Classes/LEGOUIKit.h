@@ -9,6 +9,7 @@
 #ifndef LEGOUIKit_h
 #define LEGOUIKit_h
 
-#import "LEGOBaseViewController.h"
+#import "LGNavigation.h"
+
 
 #endif /* LEGOUIKit_h */

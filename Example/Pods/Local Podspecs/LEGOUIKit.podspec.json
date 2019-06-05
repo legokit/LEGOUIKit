@@ -22,12 +22,17 @@
   "source_files": "LEGOUIKit/Classes/LEGOUIKit.h",
   "subspecs": [
     {
-      "name": "LEGOBaseViewController",
+      "name": "LGNavigation",
       "frameworks": [
         "UIKit",
         "Foundation"
       ],
-      "source_files": "LEGOUIKit/Classes/LEGOBaseViewController/**/*"
+      "source_files": "LEGOUIKit/Classes/LGNavigation/**/*",
+      "dependencies": {
+        "Masonry": [
+
+        ]
+      }
     }
   ]
 }

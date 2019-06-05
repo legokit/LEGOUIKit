@@ -11,7 +11,14 @@
 #endif
 
 #import "LEGOUIKit.h"
-#import "LEGOBaseViewController.h"
+#import "LGNavigation.h"
+#import "LGNavigationController.h"
+#import "LGNavigationUtils.h"
+#import "LGNavigationView+NavigationItem.h"
+#import "LGNavigationView+StausBarClick.h"
+#import "LGNavigationView.h"
+#import "UIView+LGNavigationExt.h"
+#import "UIViewController+LBNavigationView.h"
 
 FOUNDATION_EXPORT double LEGOUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char LEGOUIKitVersionString[];

@@ -1,17 +1,24 @@
 PODS:
   - LEGOUIKit (0.1.0):
-    - LEGOUIKit/LEGOBaseViewController (= 0.1.0)
-  - LEGOUIKit/LEGOBaseViewController (0.1.0)
+    - LEGOUIKit/LGNavigation (= 0.1.0)
+  - LEGOUIKit/LGNavigation (0.1.0):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - LEGOUIKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
 
 EXTERNAL SOURCES:
   LEGOUIKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LEGOUIKit: ee27fe490c2659c87ab3ff8d598048d856eb38a2
+  LEGOUIKit: 5b0cdb7f5f77abd7e38f90af1e5869c53d67c8bf
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 5f0fd5c247bd25ac5715be37116ddae6d959ce47
 
