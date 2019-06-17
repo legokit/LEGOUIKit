@@ -29,7 +29,7 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        self.backgroundColor = [UIColor blackColor];
+        self.backgroundColor = [UIColor colorWithRed:6 / 255.0 green:6 / 255.0 blue:6 / 255.0 alpha:1];
         self.autoresizingMask = UIViewAutoresizingFlexibleWidth;
         [self addSubview:self.titleLabel];
         CGFloat button_h = NavigationHeightWithoutMargan;
