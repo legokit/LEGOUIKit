@@ -36,6 +36,25 @@
     return newImageData;
 }
 
++ (NSData *)setImageMetaInfo:(NSDictionary *)imageInfo imageData:(NSData *)imageData {
+    // 获取imageSource和imageInfo
+    CGImageSourceRef imageSource = CGImageSourceCreateWithData((__bridge CFDataRef)imageData, NULL);
+    
+    // 写回图片
+    CFStringRef UTI = CGImageSourceGetType(imageSource);
+    NSMutableData *newImageData = [NSMutableData data];
+    CGImageDestinationRef destination = CGImageDestinationCreateWithData((__bridge CFMutableDataRef)newImageData, UTI, 1,NULL);
+    CGImageDestinationAddImageFromSource(destination, imageSource, 0, (__bridge CFDictionaryRef)imageInfo);
+    BOOL success = CGImageDestinationFinalize(destination);
+    if (success) {
+        NSLog(@"保存exif信息成功");
+    }
+    else {
+        NSLog(@"保存exif信息失败");
+    }
+    return newImageData;
+}
+
 + (NSDictionary *)getImageMetaInfoByImage:(UIImage *)image {
     NSData *imageData = [image sd_imageData];
     return [self.class getImageMetaInfoByImageData:imageData];
@@ -65,7 +84,7 @@
     NSString *kTIFF = (NSString*)kCGImagePropertyTIFFDictionary;
     
     NSMutableDictionary *originalInfo = [imageInfo mutableCopy];
-
+    
     // 纠正宽高和方向
     [originalInfo setObject:@(1) forKey:(NSString *)kCGImagePropertyOrientation];
     [originalInfo setObject:[NSNumber numberWithFloat:fabs(self.size.width)] forKey:(NSString *)kCGImagePropertyPixelWidth];
@@ -80,12 +99,12 @@
     [exif setObject:[NSNumber numberWithFloat:fabs(self.size.width)] forKey:(NSString *)kCGImagePropertyExifPixelXDimension];
     [exif setObject:[NSNumber numberWithFloat:fabs(self.size.height)] forKey:(NSString *)kCGImagePropertyExifPixelYDimension];
     [originalInfo setObject:exif forKey:kExif];
-
+    
     NSMutableDictionary *info = [imageInfo mutableCopy];
-
+    
     // 合并最外层
     [info addEntriesFromDictionary:[[UIImage getImageMetaInfoByImage:self] mutableCopy]];
-
+    
     // 合并两者的exif
     exif = nil;
     if ([info.allKeys containsObject:kExif]) {
@@ -98,7 +117,7 @@
         [exif addEntriesFromDictionary:originalInfo[kExif]];
     }
     info[kExif] = exif;
-
+    
     // 合并两者的TIFF
     NSMutableDictionary *TIFF = nil;
     if ([info.allKeys containsObject:kTIFF]) {
@@ -111,25 +130,25 @@
         [TIFF addEntriesFromDictionary:originalInfo[kTIFF]];
     }
     info[kTIFF] = TIFF;
-
-
-
+    
+    
+    
     // GPS
     if (GPS) {
         [info setObject:GPS forKey:(NSString*)kCGImagePropertyGPSDictionary];
     }
-
+    
     // FIMO
     [TIFF setObject:@"FIMO" forKey:(NSString *)kCGImagePropertyTIFFSoftware];
     [TIFF setObject:[NSString stringWithFormat:@"Shot with FIMO %@.",name] forKey:(NSString *)kCGImagePropertyTIFFImageDescription];
     [info setObject:TIFF forKey:kTIFF];
-
+    
     // ISO
     if (ISO) {
         [exif setObject:@[@([ISO integerValue])] forKey:(NSString *)kCGImagePropertyExifISOSpeedRatings];
         [info setObject:exif forKey:kExif];
     }
-
+    
     return info;
 }
 

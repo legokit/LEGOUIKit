@@ -13,6 +13,8 @@
 
 - (NSData *)setImageMetaInfo:(NSDictionary *)imageInfo;
 
++ (NSData *)setImageMetaInfo:(NSDictionary *)imageInfo imageData:(NSData *)imageData;
+
 + (NSDictionary *)getImageMetaInfoByImage:(UIImage *)image;
 
 + (NSDictionary *)getImageMetaInfoByImageData:(NSData *)imageData;
